@@ -1,11 +1,9 @@
----
 import { t } from 'i18n:astro'
 import CardProject from '@components/CardProject.astro'
 
 const { title, projects } = t('projects', {
   returnObjects: true
 })
----
 
 <section id={title.toLowerCase()} class="projects">
   <h2>
