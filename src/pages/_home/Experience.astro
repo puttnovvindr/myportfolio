@@ -1,4 +1,3 @@
----
 import { t } from 'i18n:astro';
 
 // Mendapatkan data dari i18n
@@ -21,7 +20,6 @@ const normalizeTitle = title
   .replaceAll(' ', '-')
   .normalize('NFD')
   .replace(/[\u0300-\u036f]/g, '')
----
 
 <section id={normalizeTitle} class="experience">
   <h2>{title}</h2>
