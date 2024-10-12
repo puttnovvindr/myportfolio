@@ -1,11 +1,9 @@
----
 import { Icon } from 'astro-icon/components'
 import { switchLocalePath, t } from 'i18n:astro'
 import ToggleSwitch from '@components/ToggleSwitch.astro'
 
 // Obtenemos los enlaces de la navegación de locales
 const links = t('navbar', { returnObjects: true })
----
 
 <nav id="menu">
   <ul>
