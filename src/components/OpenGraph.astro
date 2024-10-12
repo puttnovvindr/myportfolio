@@ -1,4 +1,3 @@
----
 interface Information {
   title: string
   description: string
@@ -10,7 +9,6 @@ interface Props {
 }
 const { information, image } = Astro.props
 const { title, description } = information
----
 
 <meta content={title} property="og:title" />
 <meta content={description} property="og:description" />
