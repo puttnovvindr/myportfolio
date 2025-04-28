@@ -13,10 +13,10 @@ function Header() {
           Hi, I am Puput Novita Indraini
         </h2>
         <h4 className="text-lg sm:text-xl md:text-2xl font-semibold text-center">
-          Web Frontend Developer & UI/UX Designer
+          Web Developer & UI/UX Designer
         </h4>
         <p className="text-md sm:text-lg md:text-xl mt-4 text-center">
-          Specialist in Figma, HTML5, CSS5, JavaScript, React.js, Laravel, Tailwind and Bootstrap
+          Proficient in using HTML, CSS, JavaScript, React.js, Laravel, .NET, SQL, PostgreSQL, Tailwind, Azure, Git, and Figma
         </p>
       </div>
 

@@ -13,10 +13,11 @@ function About() {
         <div className="w-full md:w-2/3 flex flex-col justify-center text-justify">
           <h1 className="text-3xl font-bold mb-2 text-white">I am Puput Novita Indraini</h1>
           <p className="text-gray-300 text-lg">
-            I am a fifth-semester Computer Science student at Bina Nusantara University, with a big passion for web development and UI/UX. 
-            I specialize in HTML5, CSS3, JavaScript, Java, Laravel, and Bootstrap, and love building websites that don’t just work but look great too. 
-            With a strong focus on user experience, I’m always looking for ways to make things smoother and more intuitive. 
-            I stay up-to-date with the latest tech and trends, aiming to create cool, user-friendly solutions for real-world problems.
+            I’m a 6th-semester Computer Science student passionate about software engineering, with hands-on 
+            experience in web development and technologies like React.js, PHP (Laravel), .NET (C#), SQL, and 
+            more. I thrive on problem-solving, data analysis, and collaborating with teams, always staying 
+            adaptable with a growth mindset. Whether it’s coding or figuring out why my plants grow better in 
+            certain spots, I’m all about learning, improving, and creating impactful solutions!
           </p>
         </div>
       </div>

@@ -9,56 +9,53 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #000000; /* Warna gelap */
-  overflow-x: hidden; /* Mencegah scroll horizontal */
+  background-color: #000000; /* Dark background */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
-/* Background luar angkasa dengan bintang */
+/* Background with static grid lines */
 .space-background {
-  background-color: #000000; /* Warna gelap menyerupai luar angkasa */
+  background-color: #000000; /* Dark background resembling space */
   position: relative;
   top: 120px;
-  min-height: 100vh; /* Pastikan background mencakup seluruh layar */
+  min-height: 100vh; /* Ensure background covers the whole screen */
   overflow: hidden;
 }
 
-/* Efek bintang */
+/* Creating the static grid lines */
 .space-background:before {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
-  width: 200%;
-  height: 200%;
+  width: 100%;
+  height: 100%;
   background: transparent;
-  background-image: 
-    radial-gradient(white 1px, transparent 1px),
-    radial-gradient(white 1px, transparent 1px),
-    radial-gradient(white 2px, transparent 2px),
-    radial-gradient(white 2px, transparent 2px),
-    radial-gradient(white 3px, transparent 3px);
-  background-size: 150px 150px, 200px 200px, 300px 300px, 400px 400px, 500px 500px;
-  background-position: 0 0, 50px 50px, 100px 100px, 150px 150px, 200px 200px;
-  animation: move-stars 60s linear infinite;
-  opacity: 0.7;
-}
-*{
-    box-sizing: border-box;
-    /* border: 1px solid red; */
+  background-image:
+    linear-gradient(45deg, rgba(255, 255, 255, 0.3) 1px, transparent 1px), /* Diagonal lines */
+    linear-gradient(-45deg, rgba(255, 255, 255, 0.3) 1px, transparent 1px), /* Other diagonal lines */
+    linear-gradient(90deg, rgba(255, 255, 255, 0.3) 1px, transparent 1px), /* Horizontal lines */
+    linear-gradient(0deg, rgba(255, 255, 255, 0.3) 1px, transparent 1px);  /* Vertical lines */
+  background-size: 40px 40px; /* Size of the grid */
+  opacity: 0.5; /* Subtle visibility */
 }
 
-/* Animasi untuk gerakan bintang */
-@keyframes move-stars {
-  0% { transform: translate(0, 0); }
-  100% { transform: translate(-10%, -10%); }
+* {
+  box-sizing: border-box;
 }
 
 .bg-pattern {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2) 1px, transparent 1px),
-                      linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 1px, transparent 1px);
-    background-size: 30px 30px; /* Ubah ini untuk mengatur jarak antara garis */
-    opacity: 0.3; /* Ubah ini untuk mengatur ketebalan garis */
-  }
-  
-  
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.2) 1px, transparent 1px), /* Vertical lines */
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 1px, transparent 1px); /* Horizontal lines */
+  background-size: 30px 30px; /* Size of the grid cells */
+  background-position: -15px -15px, -15px -15px; /* Move the grid pattern slightly to remove the edge lines */
+  opacity: 0.3; /* Control the line opacity */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1; /* Ensure it's behind other content */
+}
 
