@@ -52,7 +52,7 @@ function Project() {
             { 
               img: govspeak, 
               title: 'Govspeak', 
-              desc: 'A communication platform between government and citizens, emphasizing accessibility and user engagement through thoughtful UI/UX design', 
+              desc: 'A communication platform between government and citizens, emphasizing accessibility and user engagement through thoughtful UI/UX design. This class group project allowed me to take the lead as team coordinator, conceptualize the core idea, design an accessible user interface, and build the frontend. I focused on making the platform intuitive for all users while ensuring clarity in information flow and engagement features.', 
               githubLink: 'https://github.com/puttnovvindr/govspeak-2.git', 
               figmaLink: 'https://www.figma.com/design/dF9obXtrXIiNkg6CLVY0Ns/Govspeak?node-id=0-1&t=VjV9NWaK2DAU0bZO-1', 
               tech: ['figma', 'html', 'css', 'javascript', 'php', 'mysql']
@@ -60,7 +60,7 @@ function Project() {
             { 
               img: nexa, 
               title: 'Nexa', 
-              desc: 'An educational platform aimed at helping students prepare for internships and scholarships, featuring an intuitive interface and comprehensive resources', 
+              desc: 'An educational platform aimed at helping students prepare for internships and scholarships, featuring an intuitive interface and comprehensive resources. As team leader in this class group project, I initiated the idea, designed the UI/UX experience, and handled frontend development. The project sharpened my ability to design around student needs and structure content for high usability in academic tools.', 
               githubLink: 'https://github.com/RayNvN/ProjectWebProgramming.git', 
               figmaLink: 'https://www.figma.com/design/gsiCIg84x1VooObTGV1dCl/Web-Programming?node-id=0-1&t=VjV9NWaK2DAU0bZO-1', 
               tech: ['figma', 'html', 'css', 'javascript', 'laravel']
@@ -68,21 +68,21 @@ function Project() {
             { 
               img: altera, 
               title: 'Altera', 
-              desc: 'An intuitive website exploring exoplanets, featuring resources on their discovery, characteristics, and habitability', 
+              desc: 'An intuitive website exploring exoplanets, featuring resources on their discovery, characteristics, and habitability. Created as part of a competition group project, I was responsible for the UI/UX design and frontend implementation. The challenge involved translating complex scientific topics into digestible visual formats, balancing clarity with interactive storytelling.', 
               githubLink: 'https://github.com/rizkiafdl/nasaProject.git', 
               tech: ['figma', 'html', 'css', 'javascript']
             },
             { 
               img: iBalance, 
               title: 'IBalance', 
-              desc: 'A mental health platform offering AI-based company recommendations, customized to align with users mental health tolerance levels', 
+              desc: 'A mental health platform offering AI-based company recommendations, customized to align with users’ mental health tolerance levels. In this competition project, I led the team, initiated the idea, designed the interface, and developed the frontend. The work centered around empathy-driven UX and personalized AI solutions, combining innovation with emotional awareness to support mental wellbeing.', 
               githubLink: 'https://github.com/puttnovvindr/iBalance.git', 
               tech: ['figma', 'html', 'css', 'javascript', 'php', 'mysql']
             },
             { 
               img: craft, 
               title: 'Craft', 
-              desc: 'A digital agency platform delivering innovative branding and web development solutions, integrating smooth UI/UX design with backend functionality', 
+              desc: 'A digital agency platform delivering innovative branding and web development solutions, integrating smooth UI/UX design with backend functionality. This was an individual project initiated on my own, where I handled everything from ideation to UI/UX design and frontend development. It gave me space to experiment with brand identity, refine visual direction, and ensure a clean user experience from concept to deployment.', 
               githubLink: 'https://github.com/puttnovvindr/craft.git', 
               figmaLink: 'https://www.figma.com/design/bVZzTlDEV4Jwa7bwAsMFRq/Agency-Website?t=VjV9NWaK2DAU0bZO-1', 
               tech: ['figma', 'html', 'css', 'javascript']
@@ -90,7 +90,7 @@ function Project() {
             { 
               img: connecta, 
               title: 'Connecta', 
-              desc: 'Educational platform designed to help students prepare for internships and scholarships, with a user-friendly interface and detailed resources', 
+              desc: 'An educational platform designed to help students prepare for internships and scholarships, with a user-friendly interface and detailed resources. This class group project placed me in the role of team lead, where I introduced the concept, created the UI/UX framework, and built the frontend. The platform was crafted to be practical and inviting, ensuring clear access to learning materials and application guidance.', 
               githubLink: 'https://github.com/puttnovvindr/connecta.git', 
               figmaLink: 'https://www.figma.com/design/oo5nYnqjUUSyWBQpImMpjs/Untitled?node-id=0-1&t=VjV9NWaK2DAU0bZO-1', 
               tech: ['figma', 'html', 'css', 'javascript']
@@ -98,7 +98,7 @@ function Project() {
             { 
               img: taskspring, 
               title: 'Taskspring', 
-              desc: 'Enhanced productivity features with an improved to-do list, timer, and schedule interface, fostering an engaging learning community', 
+              desc: 'A productivity platform with an improved to-do list, timer, and schedule interface, fostering an engaging learning community. For this class group project, I pitched the idea, designed the interface, and led the frontend development. My focus was on improving task management workflows through engaging visuals and intuitive controls that support daily productivity.', 
               githubLink: '#', 
               figmaLink: 'https://www.figma.com/design/uHRjOBryj2zQ31IVmcSckp/Entreprenuership?node-id=0-1&t=iSSUrgfy8jEpzQUn-1', 
               tech: ['figma', 'html', 'css', 'javascript', 'reactjs', 'tailwind']
@@ -106,21 +106,21 @@ function Project() {
             { 
               img: progate, 
               title: 'Progate', 
-              desc: 'Streamlined the platform for reading articles and simplified the process for users to become paid writers', 
+              desc: 'A redesigned platform to enhance article reading and streamline the process for users to become paid writers. In this class group project, I served as team leader, proposed the platform concept, and worked on its UI/UX design. The redesign centered around simplifying user flows for content creation while elevating the reading experience for wider audience reach.', 
               figmaLink: 'https://www.figma.com/design/pyuAemDUqH4TrzHDw941XP/Progate-%3A-Pitchdeck-%26-Wireframe?node-id=0-1&t=7KRYNSe7C6ipdQpR-1', 
               tech: ['figma']
             },
             { 
               img: cgv, 
               title: 'Redesign CGV', 
-              desc: 'Optimized the moviegoing experience with an improved user flow and updated visual design', 
+              desc: 'An optimized moviegoing experience with an improved user flow and updated visual design. This individual redesign project focused on enhancing the overall cinema app experience, from ticket booking to movie discovery. I restructured the user journey to reduce friction and elevated the visual layout to feel more dynamic and organized.', 
               figmaLink: 'https://www.figma.com/design/SekbbqC6tdslin77Fp7WdN/Redesign-CGV?t=7KRYNSe7C6ipdQpR-1', 
               tech: ['figma']
             },
             { 
               img: starbucks, 
               title: 'Redesign Starbucks', 
-              desc: 'Streamlined the platform for reading articles and simplified the process for users to become paid writers', 
+              desc: 'A streamlined redesign of the Starbucks app interface to improve usability and ordering convenience. This self-initiated project focused on rethinking the app’s navigation, simplifying its ordering flow, and enhancing visual consistency. The result was a cleaner, more intuitive experience aligned with the brand’s identity.', 
               figmaLink: 'https://www.figma.com/design/lTD7UmDP39Wt1kXZ9vCUas/Starbucks?node-id=0-1&t=WrljCHN02ogV0R9X-1', 
               tech: ['figma']
             }
